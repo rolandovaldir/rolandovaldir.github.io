@@ -1,4 +1,147 @@
-<html>
-    <h1>Rolo's Portfolio</h1>
-    <img src="./perfil.jpeg"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.108.0">
+    <title>Rolando's Portfolio</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+    <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#712cf9">
+
+    <!-- CSS only Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./styles.css"/>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#introduccion">El portafolio de Rolando</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a href="#introduccion" class="nav-link active" aria-current="page">Introducción</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#biografia" class="nav-link">Biografía</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#proyectos" class="nav-link">Proyectos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" id="introduccion">
+                <div class="carousel-item active">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/X54hjaSGT04" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <hr class="featurette-divider" id="biografia"/>
+        <div class="container marketing" >
+            <!-- START THE FEATURETTES -->
+            <div class="row featurette" >
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1">Mi Biografía</h2>
+                    <p class="lead">Mucho gusto, soy Rolando Cadima</p>
+                    <p class="lead">
+                        Soy ingeniero de sistemas, empresario y emprendedor. Soy aficionado a la astrofísica, medicina, 
+                        artes marciales y otros deportes.
+                        Me gradue de la Universidad de Aquino en la ciudad de La Paz de estado plurinacional de Bolivia. 
+                        En mi experiencia trabajando como ingeniero de sistemas durante más de 12 años, 
+                        he adquirido conocimientos en el diseño, implementación y mantenimiento de sistemas complejos, 
+                        control de calidad de software, metodología ágil SCRUM. Además, soy un colaborador y 
+                        comunicador efectivo y puedo trabajar de manera eficaz en equipos multifuncionales.
+                    </p>
+                <div class="col-md-6">
+                    <a href="https://www.linkedin.com/in/rolandovaldir"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                      </svg>
+                    </a>
+                    <a href="https://github.com/rolandovaldir"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                      </svg>
+                    </a>
+                    
+                    <a href="mailto:valdir.cadima@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                        <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+                        <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+                      </svg>
+                    </a>
+                </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="./images/Bio.png" />
+                </div>
+            </div>
+    
+            <hr class="featurette-divider" id="proyectos">
+            <div class="row featurette" >
+                <div class="col-md-8 order-md-1">
+                    <div class="container-md" >
+                        <h3><a href="https://github.com/rolandovaldir/Portfolio_PacMen">PacMen</a></h3>
+                        <p>Se trata de generar un PacMen como elemento de imagen, el cual podemos enganchar el elemento y
+                            realizar un seguimiento de su posicion y que siempre se mantenga dentro de la pantalla mientras
+                            se mueve.</p>
+                        <p>El siguiente paso en el roadmap de mejoras es: Implementacion de un laberinto.</p>
+                    </div>
+                    <div class="container-md">
+                        <h3><a href="https://github.com/rolandovaldir/Portfolio_Eyes">Eyes Excercise</a></h3>
+                        <p>Se trata de utilizar las hojas de estilo de tal manera que pueden ser dinamicas y programables,
+                            por lo cual tenemos la mirada fija hacia el puntero de dos ojos el cual simulan la mirada de una
+                            persona.</p>
+                        <p>El siguiente paso en el roadmap de mejoras es: Pestañear</p>
+                    </div>
+                    <div class="container-md">
+                        <h3><a href="">Bus Tracking Excercise</a></h3>
+                        <p>Mapa que es obtenido desde google maps, donde se muestra la posición de los buses en Boston</p>
+                        <p>El siguiente paso en el roadmap de mejoras es: me gustaria implementar en mi país Bolivia</p>
+                    </div>
+                </div>
+                <div class="col-md-4 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1">Proyectos.</h2>
+                    <p class="lead">Expongo los respositorios en Githup de los diferentes proyectos que estoy
+                        trabajando en el curso de certificacion de MIT Full Stack MERN</p>
+                </div>
+            </div>
+            <hr class="featurette-divider">
+    
+        <!-- /END THE FEATURETTES -->
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="container">
+            <p class="float-end"><a href="#introduccion">Volver al inicio</a></p>
+            <p>&copy; 2022-2023 MIT Full-Stack con MERN &middot; <a href="https://www.mit.edu/">MIT</a> &middot; <a href="https://classroom.emeritus.org/">Emeritus</a></p>
+        </footer>
+    </main>
+    <!-- Script of Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
 </html>
