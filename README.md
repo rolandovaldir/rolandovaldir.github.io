@@ -1,8 +1,8 @@
 # My Portfolio
-## PacMen Repository
+## PacMen
   <a href="https://rolandovaldir.github.io/Portfolio_PacMen/"> PacMen Excercise</a></p>
   <a href="https://github.com/rolandovaldir/Portfolio_PacMen"> Repositorio</a>
-## My Eyes Repository
+## My Eyes
   <a href="https://rolandovaldir.github.io/Portfolio_Eyes/"> Eyes Excercise </a></p>
   <a href="https://github.com/rolandovaldir/Portfolio_Eyes"> Repositorio</a>
 ## Real Time Bus Tracker
